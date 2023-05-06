@@ -522,15 +522,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.col-span-5 {
+  grid-column: span 5 / span 5;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
+.col-span-full {
+  grid-column: 1 / -1;
 }
